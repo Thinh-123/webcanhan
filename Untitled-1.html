@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lập Trình Viên Độc Lập</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 10px;
+    }
+
+    header {
+      background: black;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0 10px;
+    }
+
+    form input, form textarea {
+      margin: 10px 0;
+      display: block;
+      padding: 10px;
+      width: 90%;
+    }
+
+    #intro h2 {
+      font-size: 3em;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    .contact textarea {
+      border: 2px solid gray;
+    }
+
+    #services {
+      padding: 40px;
+      background-color: #e8e8e8;
+    }
+
+    #services h2 {
+      color: black;
+    }
+
+    .services .service-item {
+      margin: 20px;
+    }
+
+    #courses {
+      margin-bottom: 20px;
+    }
+
+    .course-card {
+      padding: 20px;
+      background-color: white;
+      margin: 10px;
+      border-radius: 8px;
+    }
+
+    .contact button {
+      padding: 10px;
+      background: black;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#courses">Khóa Học</a>
+      <a href="#services">Dịch Vụ</a>
+      <a href="#intro">Giới Thiệu</a>
+      <a href="#contact">Liên Hệ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services" class="services">
+      <h2>Dịch Vụ</h2>
+      <div class="service-item">
+        <h3>Lập trình web</h3>
+        <p>Tạo trang web cho doanh nghiệp.</p>
+      </div>
+    </section>
+
+    <section id="intro">
+      <h2>Tôi Là Đoàn Nhân Thịnh</h2>
+      <p>Lập trình viên đam mê công nghệ.</p>
+    </section>
+
+    <section id="courses" class="courses">
+      <div class="course-card">
+        <h3>Python Cơ Bản</h3>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Liên Hệ</h2>
+      <form action="mailto:test@example.com" method="post">
+        <input type="text" name="name" placeholder="Họ Tên">
+        <input type="email" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Yêu cầu"></textarea>
+        <button type="submit">Gửi</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Đoàn Nhân Thịnh</p>
+  </footer>
+</body>
+</html>
